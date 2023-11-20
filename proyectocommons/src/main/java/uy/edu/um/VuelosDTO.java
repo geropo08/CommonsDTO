@@ -14,6 +14,7 @@ import lombok.Setter;
 public class VuelosDTO {
 
     private Long number;
+    private String aerolinea;
     private String codigoVuelo;
     private String matricula;
     private String aeropuertoSalida;
@@ -26,6 +27,12 @@ public class VuelosDTO {
     private LocalDate fechaLlegada;
     private String horaLlegada;
     private String licenciaPiloto;
+    private String puertaSalida;
+    private String puertaLlegada;
+    private String pistaSalida;
+    private String pistaLlegada;
+
+
     
 }
 

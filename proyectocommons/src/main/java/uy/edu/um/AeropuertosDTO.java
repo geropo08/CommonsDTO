@@ -1,5 +1,8 @@
 package uy.edu.um;
 
+
+import java.util.List;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,5 +20,7 @@ public class AeropuertosDTO {
     private int cantidadPuertas;
     private int cantidadMangas;
     private int cantidadPuestos;
+    private List<String> puertas;
+    private List<String> pista;
     
 }
